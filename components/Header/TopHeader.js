@@ -32,6 +32,11 @@ export default function TopHeader() {
             <style jsx>
                 {
                     `
+                        @font-face {
+                            font-family : lemon;
+                            src : url('/assets/fonts/LEMONMILK-Light.otf');
+                        }
+
                         nav {
                             display : flex;
                             position: sticky;
@@ -49,6 +54,10 @@ export default function TopHeader() {
                             align-items : center;
                         }
 
+                        p {
+                            font-family : lemon;
+                        }
+
                         .devis-gratuit {
                             color : #f39c12;
                             font-weight : bold;
@@ -59,7 +68,7 @@ export default function TopHeader() {
                             font-size : small;
                         }
 
-                        @media screen and (max-height: 850px) {
+                        @media screen and (max-width: 600px) {
                             nav {
                                 padding-right : 2%;
                             }

@@ -5,7 +5,7 @@ export default function BannerHeader() {
             <style jsx> 
                 {
                     `
-                        @media only screen and (max-width : 850px) {
+                        @media only screen and (max-width: 600px) {
                             img{
                               width: 100%;
                               height: 200px;
