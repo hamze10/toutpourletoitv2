@@ -4,6 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.13.0",
         "aos": "^2.3.4",
         "bulma": "^0.8.2",
         "next": "^9.3.5",

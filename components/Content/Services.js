@@ -1,11 +1,11 @@
 export default function Services() {
     return (
         <div className="content">
-            <h1 data-aos="fade-down"> NOS SERVICES ET REALISATIONS </h1>
+            <h1> NOS SERVICES ET REALISATIONS </h1>
             <hr />
             <div className="cards">
 
-                <div className="card" data-aos="fade-right">
+                <div className="card">
                     <div className="card-image">
                         <figure className="image is-256x256">
                             <img src="/assets/images/logo-reno.png" alt="Image renovation" />
@@ -24,7 +24,7 @@ export default function Services() {
                     </footer>
                 </div>
 
-                <div className="card" data-aos="zoom-in-up">
+                <div className="card">
                     <div className="card-image">
                         <figure className="image is-256x256">
                             <img src="/assets/images/logo-transfo.png" alt="Image transformation" />
@@ -41,7 +41,7 @@ export default function Services() {
                     </footer>
                 </div>
 
-                <div className="card" data-aos="fade-left">
+                <div className="card">
                     <div className="card-image">
                         <figure className="image is-256x256">
                             <img src="/assets/images/logo-const.png" alt="Image construction" />
@@ -65,6 +65,11 @@ export default function Services() {
                         @font-face {
                             font-family : lemon;
                             src : url('/assets/fonts/LEMONMILK-Light.otf');
+                        }
+
+                        @font-face {
+                            font-family : trash;
+                            src : url('/assets/fonts/TrashHand.TTF');
                         }
 
                         div {
@@ -92,7 +97,7 @@ export default function Services() {
                             color : #e67e22;
                             text-align : center;
                             font-size : xx-large;
-                            font-family : lemon;
+                            font-family : trash;
                         }
 
                         a {
@@ -107,7 +112,7 @@ export default function Services() {
                             text-align : center;
                             color : #e67e22;
                             font-weight : bold;
-                            font-family : lemon;
+                            font-family : trash;
                         }
 
                         hr {

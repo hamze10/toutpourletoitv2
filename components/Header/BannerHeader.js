@@ -1,19 +1,15 @@
 export default function BannerHeader() {
+    let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        return (
+            <div className="content">
+                <img src="/assets/images/banner3_mob.jpg" alt="Banniere" />
+            </div>
+        )
+    }
     return (
-        <div> 
-            <img src="/assets/images/banner2.jpg" alt="Banniere" />
-            <style jsx> 
-                {
-                    `
-                        @media only screen and (max-width: 600px) {
-                            img{
-                              width: 100%;
-                              height: 200px;
-                            }
-                         }
-                    `
-                }
-            </style>
+        <div className="content">
+            <img src="/assets/images/banner3.jpg" alt="Banniere" />
         </div>
     )
 }
