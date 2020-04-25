@@ -1,0 +1,192 @@
+[
+    {
+        "id": "5e779c1dc5bbee783fa0347b",
+        "nom": "Alost",
+        "compatriement": "Rénovation",
+        "soustitre": "Tuiles",
+        "titre" : "Tuiles en terre cuite de marque Pottelberg. Charpente traditionnelle.",
+        "images": {
+            "before": [
+                "/images/chantiers/Alost/alost/avant/3.jpg",
+                "/images/chantiers/Alost/alost/avant/4.jpg",
+                "/images/chantiers/Alost/alost/avant/5.jpg",
+                "/images/chantiers/Alost/alost/avant/6.jpg",
+                "/images/chantiers/Alost/alost/avant/7.jpg",
+                "/images/chantiers/Alost/alost/avant/Avant 1.PNG",
+                "/images/chantiers/Alost/alost/avant/Avant 2.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Alost/alost/apres/Apres.jpg",
+                "/images/chantiers/Alost/alost/avant/Tuiles en terre cuite de marque Pottelberg. Charpente traditionnelle.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c22e203912530753b49",
+        "nom": "Anderlecht",
+        "compatriement": "Rénovation",
+        "soustitre": "Zinc",
+        "titre" : "Joint à tasseaux. Plate-forme soudée à l'étain.",
+        "images": {
+            "before": [
+                "/images/chantiers/Anderlecht/anderlecht/avant/1.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/2.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/3.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/4.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/5.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/6.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/avant/7.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Anderlecht/anderlecht/apres/20180528_141642.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/apres/20180606_180459.jpg",
+                "/images/chantiers/Anderlecht/anderlecht/apres/Joint à tasseaux. Plate-forme soudée à l'étain.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c273b6685658d910890",
+        "nom": "Berchem Saint-Agathe",
+        "compatriement": "Transformation",
+        "soustitre": "Chien Assis",
+        "titre" : "Ardoise eternit effet naturel. Bardage en zinc.",
+        "images": {
+            "before": [
+                "/images/chantiers/Berchem/avant/1.jpg",
+                "/images/chantiers/Berchem/avant/2.jpg",
+                "/images/chantiers/Berchem/avant/3.jpg",
+                "/images/chantiers/Berchem/avant/4.jpg",
+                "/images/chantiers/Berchem/avant/5.jpg",
+                "/images/chantiers/Berchem/avant/6.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Berchem/apres/Ardoise eternit effet naturel. Bardage en zinc.jpg",
+                "/images/chantiers/Berchem/apres/IMG_20190930_114655.jpg",
+                "/images/chantiers/Berchem/apres/IMG_20190930_114708.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c2b14dc071b8942bc2e",
+        "nom": "Bruxelles",
+        "compatriement": "Rénovation",
+        "soustitre": "Zinc",
+        "titre" : "Réparation corniche en zinc soudée à l'etain.",
+        "images": {
+            "before": [
+                "/images/chantiers/Bruxelles/Bruxelles/avant/1.jpg",
+                "/images/chantiers/Bruxelles/Bruxelles/avant/2.jpg",
+                "/images/chantiers/Bruxelles/Bruxelles/avant/3.jpg",
+                "/images/chantiers/Bruxelles/Bruxelles/avant/4.jpg",
+                "/images/chantiers/Bruxelles/Bruxelles/avant/5.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Bruxelles/Bruxelles/apres/20180511_191511.jpg",
+                "/images/chantiers/Bruxelles/Bruxelles/apres/Réparation corniche en zinc soudée à l'etain.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c368db984b788fa9461",
+        "nom": "Chastres",
+        "compatriement": "Transformation",
+        "soustitre": "Chien Assis",
+        "titre" : "Chien assis avec un bardage en siding.",
+        "images": {
+            "before": [
+                "/images/chantiers/Chastres/charstre/avant/1.jpg",
+                "/images/chantiers/Chastres/charstre/avant/2.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Chastres/charstre/apres/Chien assis avec un bardage en siding.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c3c20d6acf4eb2da8f1",
+        "nom": "Haren",
+        "compatriement": "Construction",
+        "soustitre": "Nouvelle Toiture",
+        "titre" : "Tuiles plates et bardage en operal.",
+        "images": {
+            "before": [
+                "/images/chantiers/Haren/haren/avant/1 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/2 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/3 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/4 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/5 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/6 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/7.jpg",
+                "/images/chantiers/Haren/haren/avant/8 (2).jpg",
+                "/images/chantiers/Haren/haren/avant/9.jpg",
+                "/images/chantiers/Haren/haren/avant/10.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Haren/haren/apres/20180521_151706.jpg",
+                "/images/chantiers/Haren/haren/apres/20180521_151717.jpg",
+                "/images/chantiers/Haren/haren/apres/Tuiles plates et bardage en operal.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c3fd01f5f3954a7e2a9",
+        "nom": "Laeken",
+        "compatriement": "Transformation",
+        "soustitre": "Rehaussement",
+        "titre" : "Bardage en siding et plate-forme en zinc joint debout.",
+        "images": {
+            "before": [
+                "/images/chantiers/Laeken/laken/avant/1.jpg",
+                "/images/chantiers/Laeken/laken/avant/2.jpg",
+                "/images/chantiers/Laeken/laken/avant/3.jpg",
+                "/images/chantiers/Laeken/laken/avant/4.jpg",
+                "/images/chantiers/Laeken/laken/avant/5.jpg",
+                "/images/chantiers/Laeken/laken/avant/6.jpg",
+                "/images/chantiers/Laeken/laken/avant/7.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Laeken/laken/apres/1554281220343.jpg",
+                "/images/chantiers/Laeken/laken/apres/1554281252756.jpg",
+                "/images/chantiers/Laeken/laken/apres/1554281259186.jpg",
+                "/images/chantiers/Laeken/laken/apres/1554281338712.jpg",
+                "/images/chantiers/Laeken/laken/apres/Bardage en siding et plate-forme en zinc joint debout.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c4e4371d0e09b031d4f",
+        "nom": "Molenbeek",
+        "compatriement": "Rénovation",
+        "soustitre": "Zinc",
+        "titre" : "Corniche soudée à l'étain et joint mécanique.",
+        "images": {
+            "before": [
+                "/images/chantiers/Molenbeek/molenbeek/avant/20180627_143920.jpg",
+                "/images/chantiers/Molenbeek/molenbeek/avant/20180627_143948.jpg"
+            ],
+            "after": [
+                "/images/chantiers/Molenbeek/molenbeek/apres/20180629_110324(0).jpg",
+                "/images/chantiers/Molenbeek/molenbeek/apres/20180702_115858.jpg",
+                "/images/chantiers/Molenbeek/molenbeek/apres/20180702_115944.jpg",
+                "/images/chantiers/Molenbeek/molenbeek/apres/Corniche soudée à l'étain et joint mécanique.jpg"
+            ]
+        }
+    },
+    {
+        "id": "5e779c4342457a769cecca6b",
+        "nom": "Saint-Gilles",
+        "compatriement": "Rénovation",
+        "soustitre": "Ardoises",
+        "titre" : "Ardoises naturelles.",
+        "images": {
+            "before": [
+                "/images/chantiers/St Gilles/st gilles/avant/1.jpg",
+                "/images/chantiers/St Gilles/st gilles/avant/2.jpg",
+                "/images/chantiers/St Gilles/st gilles/avant/3.jpg"
+            ],
+            "after": [
+                "/images/chantiers/St Gilles/st gilles/apres/Ardoises naturelles.jpg",
+            ]
+        }
+    }
+]

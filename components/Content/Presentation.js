@@ -3,17 +3,17 @@ export default function Presentation() {
         <div className="content"> 
             <h1> QUI SOMMES-NOUS ? </h1>
             <hr />
-            <p> Tout pour le toit est une société composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés.
+            <p> <span className="police"> Tout pour le toit </span> est une société composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés.
                 Nous offrons différents services de qualité à des prix corrects aux clients désireux d'effectuer des travaux de toiture.
             </p>
             <p>
-                Tout pour le toit vous garantit une durabilité de vos travaux à long terme. De la rénovation à la transformation et à la
+                <span className="police"> Tout pour le toit </span> vous garantit une durabilité de vos travaux à long terme. De la rénovation à la transformation et à la
                 construction de votre toiture, découvrez toutes nos réalisations au travers de ce site. Nous intervenons
                 également en cas d'urgence et de dépannages.
             </p>
             <p>
-                Tout pour le toit est à votre disposition pour toute information supplémentaire ou devis gratuit au
-                <span className="gras"> +32 (0)2 521 97 10 </span> ou par e-mail <span className="gras"> toutpourletoit@gmail.com </span>
+                <span className="police"> Tout pour le toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au
+                <b> +32 (0)2 521 97 10 </b> ou par e-mail <b> toutpourletoit@gmail.com </b>
             </p>
             <style jsx> 
                 {
@@ -42,12 +42,14 @@ export default function Presentation() {
                             font-family : trash;
                         }
 
-                        p {
-                            font-family : lemon;
+                        .police {
+                            font-family : trash;
+                            font-size : x-large;
+                            font-weight : bold;
                         }
 
-                        .gras {
-                            font-weight : bold;
+                        p {
+                            font-family : lemon;
                         }
 
                         hr {
@@ -68,6 +70,10 @@ export default function Presentation() {
 
                             p {
                                 font-size : small;
+                            }
+                            
+                            .police {
+                                font-size : large;
                             }
                         }
                     `
