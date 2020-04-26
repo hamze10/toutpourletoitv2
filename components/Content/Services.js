@@ -75,14 +75,14 @@ class Services extends Component {
                     <div className="modal-card">
                         <header className="modal-card-head">
                             <p className="modal-card-title">
-                                {titre}
+                                <span className="titre-modal"> {titre} </span>
                             </p>
                             <button className="delete" aria-label="close" onClick={this.closeModal}></button>
                         </header>
                         <section className="modal-card-body">
                             {
                                 activeItem.map(item =>
-                                    <Gallery key={item.id} commune={item.nom} imagesavant={item.images.before} imagesapres={item.images.after} />
+                                    <Gallery key={item.id} item={item} />
                                 )
                             }
                         </section>
@@ -159,6 +159,11 @@ class Services extends Component {
                                 src : url('/assets/fonts/TrashHand.TTF');
                             }
 
+                            @font-face {
+                                font-family : futuraLight;
+                                src : url('/assets/fonts/FuturaPTLight.otf');
+                            }
+
                             .cont {
                                 margin-bottom : 1%;
                             }
@@ -195,7 +200,8 @@ class Services extends Component {
                             }
     
                             a {
-                                font-family : lemon;
+                                font-family : futuraLight;
+                                font-size : x-large;
                             }
     
                             a:link {
@@ -254,7 +260,7 @@ class Services extends Component {
                                 }
     
                                 a {
-                                    font-size : small;
+                                    font-size : large;
                                 }
     
                                 .blanche {
@@ -268,6 +274,10 @@ class Services extends Component {
                                 .model-card {
                                     width : 100%;
                                     height : 90%;
+                                }
+
+                                .titre-modal {
+                                    font-size : medium;
                                 }
                             }
                         `

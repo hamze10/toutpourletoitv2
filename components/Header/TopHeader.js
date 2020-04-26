@@ -37,6 +37,11 @@ export default function TopHeader() {
                             src : url('/assets/fonts/LEMONMILK-Light.otf');
                         }
 
+                        @font-face {
+                            font-family : futuraLight;
+                            src : url('/assets/fonts/FuturaPTLight.otf');
+                        }
+
                         nav {
                             display : flex;
                             position: sticky;
@@ -55,17 +60,17 @@ export default function TopHeader() {
                         }
 
                         p {
-                            font-family : lemon;
+                            font-family : futuraLight;
                         }
 
                         .devis-gratuit {
                             color : #f39c12;
                             font-weight : bold;
-                            font-size : large;
+                            font-size : x-large;
                         }
                         
                         .devis-numero {
-                            font-size : small;
+                            font-size : medium;
                         }
 
                         @media screen and (max-width: 600px) {
@@ -74,11 +79,11 @@ export default function TopHeader() {
                             }
 
                             .devis-gratuit {
-                                font-size : medium;
+                                font-size : large;
                             }
                             
                             .devis-numero {
-                                font-size : x-small;
+                                font-size : small;
                             }
                         }
                     `

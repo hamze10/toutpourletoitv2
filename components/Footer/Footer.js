@@ -22,16 +22,21 @@ export default function Footer() {
                             src : url('/assets/fonts/LEMONMILK-Light.otf');
                         }
 
+                        @font-face {
+                            font-family : futuraLight;
+                            src : url('/assets/fonts/FuturaPTLight.otf');
+                        }
+
                         div {
                             display : flex;
                             flex-direction : row;
-                            
                         }
 
                         p {
-                            font-family : lemon;
+                            font-family : futuraLight;
                             width : 100%;
                             text-align : center;
+                            font-size : large;
                         }
 
                         .icone {
@@ -41,12 +46,12 @@ export default function Footer() {
 
                         @media screen and (max-width: 600px) {
                             p {
-                                font-size : small;
+                                font-size : medium;
                                 text-align : center;
                             }
 
                             .mail {
-                                font-size : x-small;
+                                font-size : medium;
                             }
                         }
                     `

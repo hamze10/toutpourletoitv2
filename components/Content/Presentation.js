@@ -28,6 +28,21 @@ export default function Presentation() {
                             src : url('/assets/fonts/TrashHand.TTF');
                         }
 
+                        @font-face {
+                            font-family : futuraLight;
+                            src : url('/assets/fonts/FuturaPTLight.otf');
+                        }
+
+                        @font-face {
+                            font-family : futuraBold;
+                            src : url('/assets/fonts/FuturaPTBold.otf');
+                        }
+
+                        @font-face {
+                            font-family : futuraBook;
+                            src : url('/assets/fonts/FuturaPTLBook.otf');
+                        }
+
                         div {
                             padding : 2%;
                             margin-left : 10%;
@@ -43,13 +58,14 @@ export default function Presentation() {
                         }
 
                         .police {
-                            font-family : trash;
+                            font-family : futuraBold;
                             font-size : x-large;
                             font-weight : bold;
                         }
 
                         p {
-                            font-family : lemon;
+                            font-family : futuraLight;
+                            font-size : x-large;
                         }
 
                         hr {
@@ -69,7 +85,7 @@ export default function Presentation() {
                             }
 
                             p {
-                                font-size : small;
+                                font-size : medium;
                             }
                             
                             .police {

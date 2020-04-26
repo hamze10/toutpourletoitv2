@@ -11,18 +11,18 @@ class Gallery extends Component {
     }
 
     render() {
-        const { imagesavant, imagesapres, commune } = this.props;
+        const { item } = this.props;
         return (
             <div className="content">
-                <h1>{commune}</h1>
+                <h1>{item.nom} - {item.titre}</h1>
                 <div>
                     <h3> Avant </h3>
-                    {imagesavant.map(image =>
+                    {item.images.before.map(image =>
                         <img key={this.generateRandomKey()} src={image} alt="test" width="200" height="200" />
                     )}
 
                     <h3> Après </h3>
-                    {imagesapres.map(image =>
+                    {item.images.after.map(image =>
                         <img key={this.generateRandomKey()} src={image} alt="test" width="200" height="200" />
                     )}
 
@@ -31,6 +31,11 @@ class Gallery extends Component {
                 <style jsx>
                     {
                         `
+                            @font-face {
+                                font-family : futuraLight;
+                                src : url('/assets/fonts/FuturaPTLight.otf');
+                            }
+
                             .content {
                                 display : flex;
                                 flex-direction : column;
@@ -38,6 +43,25 @@ class Gallery extends Component {
 
                             img {
                                 margin-right : 1%;
+                            }
+
+                            img:hover {
+                                -ms-transform: scale(3.5); /* IE 9 */
+                                -webkit-transform: scale(3.5); /* Safari 3-8 */
+                                transform: scale(3.5);
+                                transition-delay: 0.4s; 
+                            }
+
+                            h1, h3 {
+                                font-family : futuraLight;
+                            }
+
+                            @media screen and (max-width: 600px) {
+                                img:hover {
+                                    -ms-transform: scale(1.5); /* IE 9 */
+                                    -webkit-transform: scale(1.5); /* Safari 3-8 */
+                                    transform: scale(1.5);
+                                }
                             }
                         `
                     }
