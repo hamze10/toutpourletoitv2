@@ -25,7 +25,7 @@ export default function TopHeader() {
                 />
                 <p>
                     <span className="devis-gratuit"> Devis gratuit <br /> </span>
-                    <span className="devis-numero"> +32 (0)2 521 97 10 </span>
+                    <span className="devis-numero"> 0489 50 13 57 </span>
                 </p>
             </div>
 

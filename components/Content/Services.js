@@ -202,6 +202,7 @@ class Services extends Component {
                             a {
                                 font-family : futuraLight;
                                 font-size : x-large;
+                                font-weight : bold;
                             }
     
                             a:link {

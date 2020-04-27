@@ -9,7 +9,7 @@ export default function Presentation() {
             <p>
                 <span className="police"> Tout pour le toit </span> vous garantit une durabilité de vos travaux à long terme. De la rénovation à la transformation et à la
                 construction de votre toiture, découvrez toutes nos réalisations au travers de ce site. Nous intervenons
-                également en cas d'urgence et de dépannages.
+                également en cas d'urgence et de dépannage.
             </p>
             <p>
                 <span className="police"> Tout pour le toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au

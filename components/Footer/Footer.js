@@ -5,14 +5,14 @@ export default function Footer() {
                 <span className="icone">
                     <i className="fas fa-phone-alt"></i>
                 </span>
-                +32 (0)2 521 97 10
+                0489 50 13 57
             </p>
 
             <p className="mail">
                 <span className="icone">
                     <i className="fas fa-envelope"></i>
                 </span>
-                toutpourletoit@gmail.com
+                toutpourletoit@hotmail.com
             </p>
             <style jsx>
                 {
