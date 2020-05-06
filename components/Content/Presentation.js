@@ -13,7 +13,7 @@ export default function Presentation() {
             </p>
             <p>
                 <span className="police"> Tout pour le toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au
-                <b> +32 (0)2 521 97 10 </b> ou par e-mail <b> toutpourletoit@gmail.com </b>
+                <b> 0489 50 13 57 </b> ou par e-mail <b> toutpourletoit@hotmail.com </b>
             </p>
             <style jsx> 
                 {
