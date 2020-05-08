@@ -34,6 +34,7 @@ class Gallery extends Component {
                             @font-face {
                                 font-family : futuraLight;
                                 src : url('/assets/fonts/FuturaPTLight.otf');
+                                font-display: swap;
                             }
 
                             .content {
@@ -53,7 +54,7 @@ class Gallery extends Component {
                             }
 
                             h1, h3 {
-                                font-family : futuraLight;
+                                font-family : futuraLight, sans-serif;
                             }
 
                             @media screen and (max-width: 600px) {

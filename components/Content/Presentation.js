@@ -19,28 +19,21 @@ export default function Presentation() {
                 {
                     `
                         @font-face {
-                            font-family : lemon;
-                            src : url('/assets/fonts/LEMONMILK-Light.otf');
-                        }
-
-                        @font-face {
                             font-family : trash;
                             src : url('/assets/fonts/TrashHand.TTF');
+                            font-display: swap;
                         }
 
                         @font-face {
                             font-family : futuraLight;
                             src : url('/assets/fonts/FuturaPTLight.otf');
+                            font-display: swap;
                         }
 
                         @font-face {
                             font-family : futuraBold;
                             src : url('/assets/fonts/FuturaPTBold.otf');
-                        }
-
-                        @font-face {
-                            font-family : futuraBook;
-                            src : url('/assets/fonts/FuturaPTLBook.otf');
+                            font-display: swap;
                         }
 
                         div {
@@ -54,17 +47,17 @@ export default function Presentation() {
                             margin-bottom : 3%;
                             color : #e67e22;
                             font-weight : bold;
-                            font-family : trash;
+                            font-family : trash, sans-serif;
                         }
 
                         .police {
-                            font-family : futuraBold;
+                            font-family : futuraBold, sans-serif;
                             font-size : x-large;
                             font-weight : bold;
                         }
 
                         p {
-                            font-family : futuraLight;
+                            font-family : futuraLight, sans-serif;
                             font-size : x-large;
                         }
 

@@ -33,13 +33,9 @@ export default function TopHeader() {
                 {
                     `
                         @font-face {
-                            font-family : lemon;
-                            src : url('/assets/fonts/LEMONMILK-Light.otf');
-                        }
-
-                        @font-face {
                             font-family : futuraLight;
                             src : url('/assets/fonts/FuturaPTLight.otf');
+                            font-display: swap;
                         }
 
                         nav {
@@ -60,7 +56,7 @@ export default function TopHeader() {
                         }
 
                         p {
-                            font-family : futuraLight;
+                            font-family : futuraLight, sans-serif;
                         }
 
                         .devis-gratuit {

@@ -1,15 +1,47 @@
-export default function BannerHeader() {
-    let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
+import React, {Component} from 'react';
+
+class BannerHeader extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            loading : true,
+            isMobile : false
+        }
+    }
+
+    componentDidMount() {
+        let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        this.setState({
+            loading : false,
+            isMobile : isMobile
+        });
+    }
+
+    render() {
+        const {loading, isMobile} = this.state;
+
         return (
-            <div className="content">
-                <img src="/assets/images/banner3_mob.jpg" alt="Banniere" />
-            </div>
+            <React.Fragment>
+                {
+                    !!loading && <div> Chargement ... </div>
+                }
+                {
+                    !loading && !isMobile && 
+                        <div className="content">
+                            <img src="/assets/images/banner3.webp" alt="Banniere" />
+                        </div>
+                }
+                {
+                    !loading && !!isMobile &&
+                        <div className="content">
+                            <img src="/assets/images/banner3_mob.webp" alt="Banniere" />
+                        </div>
+                }
+            </React.Fragment>
         )
     }
-    return (
-        <div className="content">
-            <img src="/assets/images/banner3.jpg" alt="Banniere" />
-        </div>
-    )
+
 }
+
+export default BannerHeader;

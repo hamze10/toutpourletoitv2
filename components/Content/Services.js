@@ -6,14 +6,11 @@ class Services extends Component {
         super();
         this.state = {
             modal: false,
-            dropdown: false,
             items: [],
             activeItem: []
         };
         this.openModal = this.openModal.bind(this);
-        this.openDropdown = this.openDropdown.bind(this);
         this.closeModal = this.closeModal.bind(this);
-        this.closeDropdown = this.closeDropdown.bind(this);
     }
 
     componentDidMount() {
@@ -41,27 +38,14 @@ class Services extends Component {
         })
     }
 
-    openDropdown() {
-        const { dropdown } = this.state;
-        this.setState({
-            dropdown: !dropdown
-        })
-    }
-
     closeModal() {
         this.setState({
             modal: false
         })
     }
 
-    closeDropdown() {
-        this.setState({
-            dropdown: true
-        })
-    }
-
     render() {
-        const { modal, dropdown, activeItem } = this.state;
+        const { modal, activeItem } = this.state;
         let titre;
         if (activeItem.length > 0) {
             titre = activeItem[0].compatriement + " - " + activeItem[0].soustitre;
@@ -95,7 +79,7 @@ class Services extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image is-256x256">
-                                    <img src="/assets/images/card-reno.png" alt="Image renovation" />
+                                    <img src="/assets/images/card-reno.webp" alt="Image renovation" />
                                 </figure>
                             </div>
                             <div className="card-content">
@@ -114,7 +98,7 @@ class Services extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image is-256x256">
-                                    <img src="/assets/images/card-transfo.png" alt="Image transformation" />
+                                    <img src="/assets/images/card-transfo.webp" alt="Image transformation" />
                                 </figure>
                             </div>
                             <div className="card-content">
@@ -131,7 +115,7 @@ class Services extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image is-256x256">
-                                    <img src="/assets/images/card-const.png" alt="Image construction" />
+                                    <img src="/assets/images/card-const.webp" alt="Image construction" />
                                 </figure>
                             </div>
                             <div className="card-content">
@@ -150,18 +134,15 @@ class Services extends Component {
                     {
                         `
                             @font-face {
-                                font-family : lemon;
-                                src : url('/assets/fonts/LEMONMILK-Light.otf');
-                            }
-    
-                            @font-face {
                                 font-family : trash;
                                 src : url('/assets/fonts/TrashHand.TTF');
+                                font-display: swap;
                             }
 
                             @font-face {
                                 font-family : futuraLight;
                                 src : url('/assets/fonts/FuturaPTLight.otf');
+                                font-display: swap;
                             }
 
                             .cont {
@@ -196,17 +177,14 @@ class Services extends Component {
                                 color : #e67e22;
                                 text-align : center;
                                 font-size : xx-large;
-                                font-family : trash;
+                                font-family : trash, sans-serif;
                             }
     
                             a {
-                                font-family : futuraLight;
-                                font-size : x-large;
+                                font-family : futuraLight, sans-serif;
+                                font-size : xx-large;
                                 font-weight : bold;
-                            }
-    
-                            a:link {
-                                color : #e74c3c;
+                                color : #e67e22;
                             }
     
                             a:hover {
@@ -221,7 +199,7 @@ class Services extends Component {
                                 text-align : center;
                                 color : #e67e22;
                                 font-weight : bold;
-                                font-family : trash;
+                                font-family : trash, sans-serif;
                             }
     
                             hr {

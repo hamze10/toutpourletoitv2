@@ -14,7 +14,7 @@ const Index = () => (
         <Head>
             <title> Tout pour le toit </title>
             <meta property="og:title" content="Tout pour le toit" key="title" />
-            <meta name="Description" content="Site à propos d'une entreprise."></meta>
+            <meta name="Description" content="Société de toiture, tout pour le toit."></meta>
         </Head>
         
         <CustomHeader />

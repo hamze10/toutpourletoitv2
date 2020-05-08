@@ -18,13 +18,9 @@ export default function Footer() {
                 {
                     `
                         @font-face {
-                            font-family : lemon;
-                            src : url('/assets/fonts/LEMONMILK-Light.otf');
-                        }
-
-                        @font-face {
                             font-family : futuraLight;
                             src : url('/assets/fonts/FuturaPTLight.otf');
+                            font-display: swap;
                         }
 
                         div {
@@ -33,7 +29,7 @@ export default function Footer() {
                         }
 
                         p {
-                            font-family : futuraLight;
+                            font-family : futuraLight, sans-serif;
                             width : 100%;
                             text-align : center;
                             font-size : large;
