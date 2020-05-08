@@ -29,13 +29,13 @@ class BannerHeader extends Component {
                 {
                     !loading && !isMobile && 
                         <div className="content">
-                            <img src="/assets/images/banner3.webp" alt="Banniere" />
+                            <img src="/assets/images/banner3.jpg" alt="Banniere" />
                         </div>
                 }
                 {
                     !loading && !!isMobile &&
                         <div className="content">
-                            <img src="/assets/images/banner3_mob.webp" alt="Banniere" />
+                            <img src="/assets/images/banner3_mob.jpg" alt="Banniere" />
                         </div>
                 }
             </React.Fragment>
