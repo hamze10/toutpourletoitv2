@@ -11,6 +11,7 @@ class MyDocument extends Document {
             <Html lang="fr">
                 <Head> 
                     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+                    <meta name="google-site-verification" content="ZLQEF-kL0FBV7602_l40MmHp_6KoS6egW_ZZsbEkaM0" />
                 </Head>
                 <body>
                     <Main />
