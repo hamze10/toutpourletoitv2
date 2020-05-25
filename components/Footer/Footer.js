@@ -5,14 +5,14 @@ export default function Footer() {
                 <span className="icone">
                     <i className="fas fa-phone-alt"></i>
                 </span>
-                0489 50 13 57
+                <a href="tel:+32489501357"> 0489 50 13 57 </a>
             </p>
 
             <p className="mail">
                 <span className="icone">
                     <i className="fas fa-envelope"></i>
                 </span>
-                excelltoit@hotmail.com
+                <a href="mailto:excelltoit@hotmail.com"> excelltoit@hotmail.com </a>
             </p>
             <style jsx>
                 {

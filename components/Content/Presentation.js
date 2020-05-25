@@ -13,7 +13,7 @@ export default function Presentation() {
             </p>
             <p>
                 <span className="police"> Excell'Toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au
-                <b> 0489 50 13 57 </b> ou par e-mail <b> excelltoit@hotmail.com </b>
+                <b> <a href="tel:+32489501357"> 0489 50 13 57 </a> </b> ou par e-mail <b> <a href="mailto:excelltoit@hotmail.com"> excelltoit@hotmail.com </a> </b>
             </p>
             <style jsx> 
                 {
