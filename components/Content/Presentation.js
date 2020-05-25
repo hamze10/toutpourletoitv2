@@ -3,17 +3,17 @@ export default function Presentation() {
         <div className="content"> 
             <h1> QUI SOMMES-NOUS ? </h1>
             <hr />
-            <p> <span className="police"> Tout pour le toit </span> est une société composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés.
+            <p> <span className="police"> Excell'Toit </span> est une société composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés.
                 Nous offrons différents services de qualité à des prix corrects aux clients désireux d'effectuer des travaux de toiture.
             </p>
             <p>
-                <span className="police"> Tout pour le toit </span> vous garantit une durabilité de vos travaux à long terme. De la rénovation à la transformation et à la
+                <span className="police"> Excell'Toit </span> vous garantit une durabilité de vos travaux à long terme. De la rénovation à la transformation et à la
                 construction de votre toiture, découvrez toutes nos réalisations au travers de ce site. Nous intervenons
                 également en cas d'urgence et de dépannage.
             </p>
             <p>
-                <span className="police"> Tout pour le toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au
-                <b> 0489 50 13 57 </b> ou par e-mail <b> toutpourletoit@hotmail.com </b>
+                <span className="police"> Excell'Toit </span> est à votre disposition pour toute information supplémentaire ou devis gratuit au
+                <b> 0489 50 13 57 </b> ou par e-mail <b> excelltoit@hotmail.com </b>
             </p>
             <style jsx> 
                 {

@@ -12,7 +12,7 @@ export default function Footer() {
                 <span className="icone">
                     <i className="fas fa-envelope"></i>
                 </span>
-                toutpourletoit@hotmail.com
+                excelltoit@hotmail.com
             </p>
             <style jsx>
                 {
