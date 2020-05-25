@@ -12,9 +12,9 @@ const CustomHeader = dynamic(
 const Index = () => (
     <div>
         <Head>
-            <title> Excell'Toit - Société de toiture, toit. </title>
-            <meta property="og:title" content="Excell'Toit" key="title" />
-            <meta name="Description" content="Excell'Toit est une société composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés. Nous offrons différents services de qualité à des prix corrects aux clients désireux d'effectuer des travaux de toiture."></meta>
+            <title> Excell'Toit - Société de toiture, toit à Bruxelles, Belgique. </title>
+            <meta property="og:title" content="Excell'Toit - Société de toiture, toit à Bruxelles, Belgique." key="title" />
+            <meta name="Description" content="Excell'Toit est une société belge composée de couvreurs agrées et expérimentés et d'ouvriers qualifiés. Nous offrons différents services de qualité à des prix corrects aux clients désireux d'effectuer des travaux de toiture."></meta>
         </Head>
         
         <CustomHeader />
